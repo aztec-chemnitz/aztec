@@ -3606,7 +3606,7 @@ p {
 .card-description,
 .footer-big p {
   color: #9A9A9A;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .category {
@@ -5646,7 +5646,7 @@ img {
 }
 
 .landing-page .section-team .team .team-player img {
-  max-width: 100px;
+  max-width: 150px;
 }
 
 .landing-page .section-team .team-player {
@@ -6078,14 +6078,14 @@ img {
 .clear-filter[filter-color="orange"] {
   background: rgba(44, 44, 44, 0.2);
   /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+  background: -webkit-linear-gradient(rgba(224, 23, 3, 0.6), rgba(0 0 0 / 50%));
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+  background: -o-linear-gradient(rgba(224, 23, 3, 0.6), rgba(0 0 0 / 50%));
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(90deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
+  background: -moz-linear-gradient(rgba(224, 23, 3, 0.6), rgba(0 0 0 / 50%));
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(224, 23, 3, 0.6));
   /* Standard syntax */
+  background: linear-gradient(rgba(224, 23, 3, 0.6), rgba(0 0 0 / 50%));
 }
 
 .section-story-overview {
